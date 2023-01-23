@@ -1,0 +1,45 @@
+# Week 1 Homework
+
+## Question 1. Knowing Docker tags
+
+Which tag has the text 'Write the image ID to the file'?
+
+** \-\-iidfile string
+
+## Question 2. Understanding docker first run
+
+How many python modules are installed on a first run of python:3.9?
+
+** 3
+
+SELECT count(1) FROM green_taxi_data WHERE CAST(lpep_pickup_datetime AS varchar) LIKE '%2019-01-15%' AND CAST(lpep_dropoff_datetime AS varchar) like '%2019-01-15%'
+
+20530
+
+** 4
+
+SELECT lpep_pickup_datetime 
+FROM green_taxi_data 
+ORDER BY trip_distance DESC
+
+2019-01-15
+
+** 5
+
+SELECT count(1) 
+FROM green_taxi_data 
+WHERE (passenger_count = 2 AND 
+CAST(lpep_pickup_datetime as varchar) LIKE '%2019-01-01%')
+
+2:1282
+
+SELECT count(1) 
+FROM green_taxi_data 
+WHERE (passenger_count = 3 AND
+CAST(lpep_pickup_datetime as varchar) LIKE '%2019-01-01%')
+
+3:254
+
+**6 
+
+ALL TIP AMOUNTS ARE 0.00.
